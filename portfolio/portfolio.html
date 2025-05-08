@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/83b84c753d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#container">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="frist">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple"> ADITYA SAINI</span>
+                <div> and I am a passionte</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="Images/dp.png">
+            </div>
+        </section>
+        <hr>
+    </main>
+
+
+    <!-- -----about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/abouteme.jpg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="abc">About Me</h1>
+                    <p class="about-me">My name is Aditya, and I am currently pursuing a Diploma in Engineering from
+                        SSPI
+                        College, Azamgarh.
+                        I have a strong interest in web development and have been focusing on learning front-end
+                        technologies.
+                        So far, I have gained skills in HTML and CSS, and I enjoy creating visually appealing and
+                        user-friendly websites.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hr2">
+
+    <!--  ------project------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="xyz">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <h3>I will nothing do now a time. After work on some project i will mention them here. </h3>
+                </div>
+            </div>
+
+            <hr class="hr3">
+
+            <!-- -------contact me------- -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="abc">Contact Me</h1>
+                            <p><i class="fa-regular fa-paper-plane"></i> adityasaini0004@gmail.com</p>
+                            <p><i class="fa-solid fa-phone-volume"></i> 6392220656</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/share/1DerUjyRU9/"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/pvt.adi004?igsh=a3hyem5oeGpxdndw"><i
+                                        class="fab fa-square-instagram"></i></a>
+                                <a
+                                    href="https://www.linkedin.com/in/aditya-saini-2178a4326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href=""></a>
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Aditya. Made for <i class="fa-solid fa-heart"></i> learning HTML and CSS. </p>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Desiginer', 'and Creator'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
